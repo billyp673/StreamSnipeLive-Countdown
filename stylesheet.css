@@ -1,0 +1,53 @@
+body{
+  font-family: sans-serif;
+  font-weight: 100;
+  background-image: url("https://cdn.discordapp.com/attachments/742491504031039548/749892696738627587/unknown.png");
+  background-size: cover;
+}
+
+h1{
+  color: blue;
+  font-weight: 100;
+  font-size: 80px;
+  margin: 0px 0px 20px;
+}
+
+#centre{
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ssl{
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 80px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: blue;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00BDFF;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 32px;
+}
