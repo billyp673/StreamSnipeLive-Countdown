@@ -1,4 +1,4 @@
-const deadline = 'September 3 2021 18:25:30 GMT+1000';
+const deadline = 'October 18 2020 20:00:00 GMT+0200';
 function getTimeRemaining(endtime) {
   const total = Date.parse(endtime) - Date.parse(new Date());
   const seconds = Math.floor((total / 1000) % 60);
